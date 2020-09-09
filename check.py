@@ -1,4 +1,4 @@
-file = open('encrypt.txt', 'r')
+file = open('file.txt', 'r')
 text = "".join(file)
 words = 0
 pos = 'out'
