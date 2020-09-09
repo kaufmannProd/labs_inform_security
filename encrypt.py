@@ -13,7 +13,7 @@ def encryption(fock):
             encrypted = encrypted + letter
     return encrypted
 
-f1 = open('encrypt.txt', 'r')
+f1 = open('file.txt', 'r')
 text = "".join(f1)
 gg = encryption(text)
 f2 = open('encrypted.txt', 'w')
